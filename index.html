@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My ML Notebook | Screenshot Version</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home" aria-label="My ML Notebook home"><span class="brand-mark">ML</span><span>My ML Notebook</span></a>
+  <span class="top-note">Machine Learning • Concepts • Python</span>
+</header>
+<main>
+  <section id="home" class="page active">
+    <div class="hero">
+      <div class="eyebrow">YOUR PRACTICAL ML GUIDE</div>
+      <h1>Machine Learning,<br><span>made simple.</span></h1>
+      <p class="hero-copy">Learn machine learning concepts step by step with clear explanations, practical examples, Python code, datasets, and visualizations.</p>
+      <div class="hero-actions"><a href="#linear-regression" class="primary">Explore Topics <span>→</span></a><span class="small-note">8 essential algorithms</span></div>
+      <div class="hero-graphic" aria-label="Illustrative machine learning graph">
+        <div class="graph-head"><span>Learning patterns</span><span class="live-dot">● Interactive lessons</span></div>
+        <svg viewBox="0 0 440 170" role="img" aria-label="Illustrative upward trend graph">
+          <g stroke="#e8edf5" stroke-width="1"><path d="M30 20H420M30 55H420M30 90H420M30 125H420M30 160H420"/><path d="M30 15V160M108 15V160M186 15V160M264 15V160M342 15V160M420 15V160"/></g>
+          <path d="M30 143 C80 137 95 113 138 119 S210 75 250 87 S325 35 370 48 S402 25 420 20" fill="none" stroke="#5b8def" stroke-width="4" stroke-linecap="round"/>
+          <path d="M30 143 C80 137 95 113 138 119 S210 75 250 87 S325 35 370 48 S402 25 420 20 L420 160 L30 160Z" fill="#5b8def" opacity=".09"/>
+          <g fill="#2457c5"><circle cx="30" cy="143" r="4"/><circle cx="138" cy="119" r="4"/><circle cx="250" cy="87" r="4"/><circle cx="370" cy="48" r="4"/><circle cx="420" cy="20" r="4"/></g>
+        </svg>
+        <div class="graph-caption">Illustrative visualization • Explore each topic for examples</div>
+      </div>
+    </div>
+    <div class="section-heading"><div><div class="eyebrow">START LEARNING</div><h2>Explore the topics</h2></div><span class="count">08 TOPICS</span></div>
+    <div class="topic-grid" id="topicGrid"></div>
+    <div class="foundation"><div class="foundation-icon">NP</div><div><strong>NumPy + Pandas foundations</strong><p>Used across all topics for numerical calculations, data tables, cleaning, and preparation.</p></div></div>
+    <footer><span>My ML Notebook</span><span>Learn • Practice • Explore</span></footer>
+  </section>
+  <section id="lesson" class="page lesson-page">
+    <button class="back" id="backButton">← All topics</button>
+    <div id="lessonContent"></div>
+    <footer><span>My ML Notebook</span><a href="#home">Back to homepage ↑</a></footer>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
